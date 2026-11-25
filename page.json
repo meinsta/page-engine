@@ -1,0 +1,23 @@
+{"id": "api-security",
+ "h1": "Pass Your Security Review on the First Call",
+ "cta": {"text": "Start Free", "url": "https://example.com/signup"},
+ "sections": [
+  {"heading": "Rotate Keys While Drivers Stay Online",
+   "proof": "security team needs key rotation with no downtime",
+   "facts": [
+    {"lead": "Rotate a key and keep the old one for 24 hours", "q": "Can we rotate keys with zero downtime?"},
+    {"lead": "Unused keys are disabled after 90 days", "q": "When are unused keys disabled?"}]},
+  {"heading": "Keep Driver Data in the Region You Choose",
+   "proof": "legal needs driver data to stay inside the EU",
+   "facts": [
+    {"lead": "Route and driver data stays in its region", "q": "Does driver data stay in the EU?"}]},
+  {"heading": "Trust Every Webhook You Receive",
+   "proof": "webhook events arrived out of order",
+   "facts": [
+    {"lead": "Verify each delivery with its HMAC-SHA256 signature", "q": "How is a webhook delivery signed?"},
+    {"lead": "Events for one route arrive in order", "q": "Do webhook events arrive in order?"}]},
+  {"heading": "Scope Every Key to Its Job",
+   "proof": "read-only key for the analytics dashboard",
+   "facts": [
+    {"lead": "Give each key one of three scopes", "q": "What scopes can an API key have?"}]}
+ ]}
